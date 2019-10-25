@@ -1,10 +1,10 @@
 # Mobilenet V1 on STM32H7 using STMCubeMX.AI (v4.1.0)
 
 The repo contains a STMWorkbench projects that aims to fit a [Mobilenet v1](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) into a MCU STM32H7 using the STMCubeMX.AI flow. Note that the selected Mobilenet version is the biggest model that can be fitted on the MCU STM32H7 using the new `v4.1.0` STMCubeMX.AI flow.
-In this updated version, 8-bit pre-quantized TFLite Network implementations are used.
+In this updated version, *8-bit* pre-trained **TFLite** models implementations are used.
 
 ## Current Status
-The repo is a collection of STMWorkbench projects containg different implementation of MobilenetV1 networks on STM32H7 board.
+The repo is a collection of *STMWorkbench* projects containg different implementation of MobilenetV1 networks on STM32H7 board.
 Particullarly, it contains two Mobilenet v1 implementations (`3,160,160`, alpha=`0.25` and `3,192,192`, alpha=`0.5`) that **compile and run** on 
 NUCLEO-H7432ZI.
 
